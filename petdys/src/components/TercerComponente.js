@@ -5,9 +5,7 @@ export const TercerComponente = () => {
     <div>
       <nav>
         <ol>
-        <a href='./PrimerComponente.js'> <ol> Gatos </ol></a>
-        <a href='./PrimerComponente.js'> <ol> Perros </ol></a>
-        <a href='./PrimerComponente.js'><ol> Accesorios </ol></a>
+        <a href='nam'><ol> Accesorios </ol></a>
         <a href='./PrimerComponente.js'> <ol> Comidas </ol></a>
         <a href='./PrimerComponente.js'><ol> Tips </ol> </a>
         </ol>
