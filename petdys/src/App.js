@@ -1,41 +1,31 @@
-
+import React from 'react';
 import './App.css';
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from './pages/Home';
 
-import CuartoComponente from './components/CuartoComponente';
-import { PrimerComponente } from './components/PrimerComponente';
-import { QuintoComponente } from './components/QuintoComponente';
-import SegundoComponente from './components/SegundoComponente';
-import { TercerComponente } from './components/TercerComponente';
-import {Comida} from './pages/Comida' ; 
-
-
+import Comida from './pages/Comida'
+import Accesorios from './pages/Accesorios';
+import Tips from './pages/Tips';
 
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-    
-
-
-      <PrimerComponente/>
-     <SegundoComponente/>
-     <TercerComponente/>
-     <CuartoComponente/>
-     <QuintoComponente/>
-
+     
      <BrowserRouter>
       
       <Routes>
       
-        <Route path="/" element={<App/>}>
-        <Route path="comida" element={<Comida />} />
+        <Route path="/" element={<Home/>}/> 
+        <Route path="/Comida" element={<Comida/>} />
+        <Route path="/Accesorios" element={<Accesorios/>}/>
+        <Route path="/Tips" element={<Tips/>}/>
         
-        </Route>
+        
       </Routes>
-    </BrowserRouter>
+     </BrowserRouter>
      
      
 
