@@ -1,5 +1,4 @@
 import React from 'react'
-import './TercerComponente.css'
 import Imagen1 from './Imagenes/imagen1.png'
 import Imagen2 from './Imagenes/imagen2.png'
 import Imagen3 from './Imagenes/imagen3.png'

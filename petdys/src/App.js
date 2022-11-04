@@ -1,11 +1,14 @@
 
 import './App.css';
-import {Comida} from './components/Comida';
+import ReactDOM from "react-dom/client";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 import CuartoComponente from './components/CuartoComponente';
 import { PrimerComponente } from './components/PrimerComponente';
 import { QuintoComponente } from './components/QuintoComponente';
 import SegundoComponente from './components/SegundoComponente';
 import { TercerComponente } from './components/TercerComponente';
+import {Comida} from './pages/Comida' ; 
 
 
 
@@ -22,13 +25,30 @@ function App() {
      <TercerComponente/>
      <CuartoComponente/>
      <QuintoComponente/>
-     <Comida/>
-  
+
+     <BrowserRouter>
+      
+      <Routes>
+      
+        <Route path="/" element={<App/>}>
+        <Route path="comida" element={<Comida />} />
+        
+        </Route>
+      </Routes>
+    </BrowserRouter>
+     
+     
+
 
 
       </header>
     </div>
+    
+    
   );
 }
 
 export default App;
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<App />);
+

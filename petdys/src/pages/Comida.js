@@ -1,6 +1,6 @@
 import React from 'react'
-import ComidaLogo from './Imagenes/ComidaLogo.png'
 
+import ComidaLogo from './Imagenes/ComidaLogo.png'
 
 export const Comida = () => {
   return (

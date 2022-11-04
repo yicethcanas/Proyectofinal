@@ -1,5 +1,5 @@
 import React from 'react'
-import './QuintoComponente.css'
+
 import Ayuda from './Imagenes/Ayuda.png'
 
 export const QuintoComponente = () => {

@@ -1,5 +1,4 @@
 import React from 'react'
-import './CuartoComponente.css'
 import CuidoAdulto from './Imagenes/CuidoAdulto.png'
 import LataAdulto from './Imagenes/LataAdulto.png'
 import Latacachorro from './Imagenes/Latacachorro (2).png'

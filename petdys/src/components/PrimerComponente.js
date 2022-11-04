@@ -1,5 +1,5 @@
 import React from 'react'
-import './PrimerComponente.css'
+
 import Logo from './Imagenes/Logo.png'
 export const PrimerComponente = () => {
   return (

@@ -1,9 +1,11 @@
 import React from 'react'
-import './SegundoComponente.css'
+import { Outlet, Link } from "react-router-dom";
+
 
 const SegundoComponente = () => {
   return (
-    <div>
+    <Outlet>
+      <div>
        <nav class="navbar navbar-expand-lg bg-light">
   <div class="container-fluid">
   
@@ -12,16 +14,19 @@ const SegundoComponente = () => {
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <a className="nav-link active" aria-current="page" href=" ">Home</a>
-        <a className="nav-link" href=" ">Comidas</a>
-        <a className="nav-link" href=" ">Accesorios</a>
-        <a className="nav-link" href=" ">Tips</a>
+        <Link to="/"className="nav-link active" aria-current="page" >Home</Link>
+        <Link to="comida" className="nav-link">Comidas</Link>
+        <Link className="nav-link">Accesorios</Link>
+        <Link className="nav-link">Tips</Link>
         
       </div>
     </div>
   </div>
 </nav>
 </div>
+
+    </Outlet>
+    
             
 
       
