@@ -5,8 +5,8 @@ import {Link } from "react-router-dom";
 const SegundoComponente = () => {
   return (
     
-    <div>
-      <nav class="navbar navbar-expand-lg bg-light">
+    <div  id="barra2">
+      <nav class="navbar navbar-expand-lg bg-light" >
         <div class="container-fluid">
         
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">

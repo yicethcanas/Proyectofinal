@@ -6,7 +6,7 @@ export const TercerComponente = () => {
   return (
     <div className='Carusel' id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
-        <div class="carousel-item active">
+        <div class="carousel-item active" >
         <img src={Imagen1} class="Imagen1" alt="..."/>
         </div>
         <div class="carousel-item">

@@ -1,0 +1,37 @@
+*{
+    Margin:0;
+    padding: 0;
+}
+
+.Logo{
+    height: 80px;
+    width: 80px;
+}
+
+
+#barra2{
+    position: fixed;
+    top: 0px;
+    left: 0;
+    width: 100%;
+}
+
+
+
+#img4com{
+    width: 500px;
+    height: 500px;
+    margin: 20px;
+    transition: all 0.5s;
+}
+
+#img4com:hover{
+    cursor: pointer;
+    transform: scale(1.1)
+}
+
+.Contimg{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

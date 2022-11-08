@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.Log{
+    display:flex;
+   justify-content: center; 
+}
+#Titulo{
+    display:flex;
+    justify-content: center; 
+}
+.Logoimg{
+    width: 300px;
+    height: 300px;
+}
+
+.Contenido{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+#cajitas{
+     max-width: 500px;
+    max-height:max-content;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(228, 235, 235);
+    
+}
+#imagenes{
+    transition: all 0.5s;
+    width: 300px;
+    height: 300px;
+}
+#imagenes:hover{
+    cursor: pointer;
+    transform: scale(1.1)
+}

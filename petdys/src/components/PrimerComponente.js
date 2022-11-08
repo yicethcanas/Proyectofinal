@@ -1,9 +1,9 @@
 import React from 'react'
-
+import {Link } from "react-router-dom";
 import Logo from './Imagenes/Logo.png'
 export const PrimerComponente = () => {
   return (
-    <header className='header' >
+    <header className='header' id='barra1' >
        <nav class="navbar bg-light">
             <div class="container-fluid">
                 <img className='Logo' src={Logo} alt="Logo" /> 

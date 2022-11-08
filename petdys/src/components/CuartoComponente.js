@@ -1,31 +1,42 @@
 import React from 'react'
+import {Link } from "react-router-dom";
 import CuidoAdulto from './Imagenes/CuidoAdulto.png'
+import CollarGato from './Imagenes/CollarGato.png'
+
 import LataAdulto from './Imagenes/LataAdulto.png'
 import Latacachorro from './Imagenes/Latacachorro (2).png'
+import CadenaPerro  from './Imagenes/CadenaPerro.png'
+import CuidoCachorroGato from './Imagenes/CuidoCachorroGato.png'
+import CorreaPerro from './Imagenes/CorreaPerro.png'
+
 import CuidoCachorro from './Imagenes/CuidoCachorro.png'
+
 
 const CuartoComponente = () => {
   return (
     
-        <div>
-            <div class="container text-center">
-  <div class="row g-2">
-    <div class="col-6">
-      <div class="p-3 border bg-light"> <img className='CuidoAdulto' src={CuidoAdulto} alt="CuidoAdulto" /> </div>
-    </div>
-    <div class="col-6">
-      <div class="p-3 border bg-light"><img className='LataAdulto' src={LataAdulto} alt="LataAdulto" /></div>
-    </div>
-    <div class="col-6">
-      <div class="p-3 border bg-light"><img className='Latacachorro' src={Latacachorro} alt="Latacachorro" /></div>
-    </div>
-    <div class="col-6">
-      <div class="p-3 border bg-light"><img className='CuidoCachorro' src={CuidoCachorro} alt="CuidoCachorro" /></div>
-    </div>
-  </div>
-</div>
+  <div >
+        <nav class="Contimg">
+        <div >
+             <Link to="/Comida"> <img className='CuidoAdulto' src={CuidoAdulto} alt="CuidoAdulto" id='img4com' /> </Link>
+          </div>
+          
+            <div >
+               <Link to="/Accesorios"><img className='CollarGato' src={CollarGato} alt="CollarGato" id='img4com'/></Link>
+          </div>
+          <div >
+             <Link to="/Accesorios"><img className='CorreaPerro' src={CorreaPerro} alt="CorreaPerro" id='img4com' /> </Link>
+          </div>
+          <div >
+            <Link to="/Comida"><img className='CuidoCachorroGato' src={CuidoCachorroGato} alt="CuidoCachorro" id='img4com' /> </Link>
+          </div>
+        </nav>
+        
+          
+        
+    
 
-        </div>
+ </div>
       
     
   )
