@@ -9,7 +9,12 @@ export default function Home() {
   return (
     <div>
      <PrimerComponente/>
-     <SegundoComponente/>
+     <br/>
+     <br/>
+     <br/>
+     <br/>
+     <br/>
+     <br/>
      <TercerComponente/>
      <CuartoComponente/>
      <QuintoComponente/>

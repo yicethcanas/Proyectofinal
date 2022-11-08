@@ -8,6 +8,13 @@
     width: 80px;
 }
 
+#barra1{
+    position: fixed;
+    top: 0px;
+    left: 0;
+    width: 100%;
+}
+
 
 #barra2{
     position: fixed;
@@ -34,4 +41,31 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+.Ayuda{
+    width: 50px;
+    height: 40px;
+}
+
+.Quintocomponente{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px;
+}
+
+.MetodosPago{
+    width: 600px;
+    height: 300px;
+   
+}
+
+.cja{
+    max-width: 500px;
+    max-height:max-content;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(228, 235, 235);
+    
 }
