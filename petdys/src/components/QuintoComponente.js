@@ -7,11 +7,22 @@ export const QuintoComponente = () => {
     <div >
       <nav className='Quintocomponente'>
       <div className='cja'>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
       <img className='Ayuda' src={Ayuda} alt="Ayuda"  />
 
       <p>
-        hefwiuhnjkshnkjdfhnkjldasfhgkhfdnkjgvnhrkjlhgkjfdkjg
-        dfiojdfiogfadjsojvojfiojgijdfpoafkfd
+      Contáctanos
+      <br/>
+      Preguntas frecuentes
+      <br/>
+      Nuestras políticas
+      <br/>
+      Política de protección de datos personales
+       
         
       </p>
       

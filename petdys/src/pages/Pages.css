@@ -1,15 +1,21 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
+
 
 .Log{
     display:flex;
    justify-content: center; 
 }
 #Titulo{
+    font-family: 'Shadows Into Light', cursive;
     display:flex;
     justify-content: center; 
+}
+#Textos{
+    font-family: 'Inconsolata', monospace;
 }
 .Logoimg{
     width: 300px;
@@ -29,7 +35,7 @@
     margin: 10px;
     border-radius: 10px;
     text-align: center;
-    background-color: rgb(228, 235, 235);
+    
     
 }
 #imagenes{
@@ -39,5 +45,5 @@
 }
 #imagenes:hover{
     cursor: pointer;
-    transform: scale(1.1)
+    transform: scale(0.9)
 }

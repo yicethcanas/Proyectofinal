@@ -28,7 +28,7 @@ export default function Accesorios() {
         <div className='CorreaPerro' id='cajitas'>
         <img  src={CorreaPerro} alt="CorreaPerro" id='imagenes'/>
 
-        <p>
+        <p id='Textos'>
           Hermosa correa para tu mascota (perro)
           <br/>
           Diferentes colores, excelente calidad, ideal para tu mascota.
@@ -40,7 +40,7 @@ export default function Accesorios() {
         <div className='CadenaPerro' id='cajitas'>
         <img  src={CadenaPerro} alt="CadenaPerro" id='imagenes' />
 
-        <p>
+        <p id='Textos'>
           Hermosa Cadena para tu hermoso hijo (ideales para perros)
           <br/>
           Además que le vas a brindar el mejor estilo a tu mascota,
@@ -54,7 +54,7 @@ export default function Accesorios() {
         <div className='HuesoBusoCorrea' id='cajitas'>
         <img  src={HuesoBusoCorrea} alt="HuesoBusoCorrea" id='imagenes'/>
 
-        <p>
+        <p id='Textos'>
           Hueso para tu mascota <br/>
           Ideal para que tu mascota libere todo su estrés <br/>
           $5.000 <br/> <br/>
@@ -70,7 +70,7 @@ export default function Accesorios() {
         <div className='ArdillaGato' id='cajitas'>
         <img  src={ArdillaGato} alt="ArdillaGato" id='imagenes'/>
 
-        <p>
+        <p id='Textos'>
           Ardilla para tu mascota!
           <br/>
           Peluche ideal para que tu mascota! <br/>
@@ -81,7 +81,7 @@ export default function Accesorios() {
         <div className='CamaMascota' id='cajitas'>
         <img  src={CamaMascota} alt="CamaMascota" id='imagenes'/>
 
-        <p>
+        <p id='Textos'>
           Cama portatil para tu mascota! <br/>
           $40.000    
           </p>
@@ -92,7 +92,7 @@ export default function Accesorios() {
         <div className='Guacal' id='cajitas'>
         <img  src={Guacal} alt="Guacal" id='imagenes' />
 
-        <p>
+        <p id='Textos'>
           Guacal para transportar tu mascota <br/>
           Ideal para llevar tu mascota a los viajes, con una buena amplito
           y comoda! <br/>
@@ -103,7 +103,7 @@ export default function Accesorios() {
         <div className='JuegoGatos' id='cajitas'>
         <img  src={JuegoGatos} alt="JuegoGatos" id='imagenes' />
 
-        <p>
+        <p id='Textos'>
           Juego para tu gato <br/>
           $7.000
         </p>
@@ -112,7 +112,7 @@ export default function Accesorios() {
         <div className='GafasGato' id='cajitas'>
         <img  src={GafasGato} alt="GafasGato" id='imagenes' />
 
-        <p>
+        <p id='Textos'>
           Gafas para tu gato con mucho estilo! <br/>
           Tu mascota va a tener el estilo mas unico de todos sus amigos! <br/>
           $10.000
@@ -123,7 +123,7 @@ export default function Accesorios() {
         <div className='GymGato' id='cajitas'>
         <img  src={GymGato} alt="GymGato" id='imagenes' />
 
-        <p>
+        <p id='Textos'>
           Gym para tu mascota! <br/>
           Disfrutaria de un espacio especialmente para él <br/>
           $50.000
@@ -132,7 +132,7 @@ export default function Accesorios() {
 
         <div className='CollarGato' id='cajitas'>
         <img  src={CollarGato} alt="CollarGato" id='imagenes' />
-        <p>
+        <p id='Textos'>
           Collar para pasear tu gato! <br/>
           siempre saca a tu mascota con el mejor estilo <br/>
           $15.000
@@ -143,7 +143,7 @@ export default function Accesorios() {
             
             <img  src={Coca} alt="Coca" id='imagenes'/>
 
-            <p>
+            <p id='Textos'>
               La mejor coca para tu mascota! <br/>
               $10.000
             </p>

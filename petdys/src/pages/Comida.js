@@ -27,7 +27,7 @@ import LataCachorroGato from './Imagenes/LataCachorroGato.png'
           <div className='CuidoAdulto' id='cajitas'>
           <img  src={CuidoAdulto} alt="CuidoAdulto" id='imagenes'/> 
           <br/>
-          <p> Alimento para perros adultos croquetas Bolsa 30 kg Ringo Abrir en Información
+          <p id='Textos'> Alimento para perros adultos croquetas Bolsa 30 kg Ringo Abrir en Información
             <br/>
               $105.590
               <br/>
@@ -38,7 +38,7 @@ import LataCachorroGato from './Imagenes/LataCachorroGato.png'
 
             <div className='CuidoCachorro' id='cajitas' >
             <img  src={CuidoCachorro} alt="CuidoCachorro" id='imagenes' /> 
-            <p>
+            <p id='Textos'>
             Alimento seco para perros cachorros Bolsa 1 kg RingoAbrir en Información
             <br/>
             $4.390
@@ -51,7 +51,7 @@ import LataCachorroGato from './Imagenes/LataCachorroGato.png'
 
           <div className='LataAdulto' id='cajitas'>
           <img  src={LataAdulto} alt="LataAdulto"  id='imagenes'/> 
-          <p>
+          <p id='Textos'>
 
           DOG CHOW FESTIVAL DE PAVO Y POLLO. LATA 374 G
           <br/>
@@ -63,7 +63,7 @@ import LataCachorroGato from './Imagenes/LataCachorroGato.png'
 
         <div className='Latacachorro' id='cajitas'>
         <img  src={Latacachorro} alt="LataAdulto" id='imagenes' /> 
-        <p>
+        <p id='Textos'>
         Pedigree Lata Cachorro Carne Y Pollo 380Gr
         <br/>
         $6,500
@@ -77,7 +77,7 @@ import LataCachorroGato from './Imagenes/LataCachorroGato.png'
           <div className='CuidoCachorroGato' id='cajitas'>
           <img  src={CuidoCachorroGato} alt="CuidoCachorroGato" id='imagenes' /> 
 
-          <p>
+          <p id='Textos'>
             Mirringo 
             <br/>
           $5.000 
@@ -93,7 +93,7 @@ import LataCachorroGato from './Imagenes/LataCachorroGato.png'
 
           <div className='CuidoAdultoGato' id='cajitas'>
           <img  src={CuidoAdultoGato} alt="CuidoAdultoGato" id='imagenes' />
-          <p>
+          <p id='Textos'>
           Cat Chow Alimento para Gatos Adultos Delimix 10 kg
           <br/>
           $ 125.500
@@ -103,7 +103,7 @@ import LataCachorroGato from './Imagenes/LataCachorroGato.png'
         <div className='LataAdultoGato' id='cajitas'>
         <img  src={LataAdultoGato} alt="LataAdultoGato"  id='imagenes'/>
 
-        <p> Whiskas Lata Gatos Atun en salsa 290 Grs
+        <p id='Textos'> Whiskas Lata Gatos Atun en salsa 290 Grs
           <br/>
               $5.200
               <br/>
@@ -126,7 +126,7 @@ import LataCachorroGato from './Imagenes/LataCachorroGato.png'
 
         <div className='LataCachorroGato' id='cajitas'>
         <img  src={LataCachorroGato} alt="LataCachorroGato"  id='imagenes'/> 
-        <p>
+        <p id='Textos'>
           Felix Comida Húmeda Gatos Paté Salmón 156 g <br/>
           Se el primero en dejar una opinión para este artículo <br/>
           El Paté de Salmón en lata de Felix de Purina es
